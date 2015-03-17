@@ -13,6 +13,16 @@ class WeatherServiceController : NSObject {
     override init() {
         super.init()
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "locationAvailable:", name: "LOCATION_AVAILABLE", object: nil)
+        
+        let aerisConsumerId = valueForAPIKey(keyname: "AERIS_CONSUMER_ID")
+        let aerisConsumerSecret = valueForAPIKey(keyname: "AERIS_CONSUMER_SECRET")
+        
+        AerisEngine.engineWithKey(aerisConsumerId, secret: aerisConsumerSecret)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self,
+            selector: "locationAvailable:",
+            name: "LOCATION_AVAILABLE",
+            object: nil)
     }
     
     func locationAvailable(notification:NSNotification) -> Void {

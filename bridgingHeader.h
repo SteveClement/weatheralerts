@@ -10,5 +10,6 @@
 #define weatheralerts_bridgingHeader_h
 
 #import <Parse/Parse.h>
+#import <Aeris/Aeris.h>
 
 #endif
