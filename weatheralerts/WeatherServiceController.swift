@@ -26,7 +26,7 @@ class WeatherServiceController : NSObject {
     }
     
     func locationAvailable(notification:NSNotification) -> Void {
-        let userInfo = notification.userInfo as Dictionary<String,String>
+        let userInfo = notification.userInfo as! Dictionary<String,String>
         
         println("WeatherService:  Location available \(userInfo)")
         

@@ -16,8 +16,6 @@
 		AA10B0751AB7725900DB1931 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B0741AB7725900DB1931 /* ApiKeys.swift */; };
 		AA10B0771AB772A200DB1931 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA10B0761AB772A200DB1931 /* ApiKeys.plist */; };
 		AA10B07A1AB773F800DB1931 /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B0791AB773F800DB1931 /* PushNotificationController.swift */; };
-		AA10B07E1AB7762100DB1931 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10B07D1AB7762100DB1931 /* Parse.framework */; };
-		AA10B0801AB7762900DB1931 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10B07F1AB7762900DB1931 /* Bolts.framework */; };
 		AA10B0821AB791A700DB1931 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10B0811AB791A700DB1931 /* AudioToolbox.framework */; };
 		AA10B0841AB791B200DB1931 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10B0831AB791B200DB1931 /* CFNetwork.framework */; };
 		AA10B0861AB791C000DB1931 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10B0851AB791C000DB1931 /* CoreGraphics.framework */; };
@@ -50,6 +48,8 @@
 		AA2FFC521AB83C0B009D677C /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FFC411AB83C0B009D677C /* UIWebView+AFNetworking.m */; };
 		AA2FFC541AB8403A009D677C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2FFC531AB8403A009D677C /* Social.framework */; };
 		AA2FFC561AB84068009D677C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2FFC551AB84068009D677C /* Accounts.framework */; };
+		AAA1F9AE1AD9C038004A5802 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA1F9AD1AD9C038004A5802 /* Bolts.framework */; };
+		AAA1F9B01AD9C04D004A5802 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA1F9AF1AD9C04D004A5802 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,10 +75,7 @@
 		AA10B06A1AB76F9000DB1931 /* weatheralertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatheralertsTests.swift; sourceTree = "<group>"; };
 		AA10B0741AB7725900DB1931 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 		AA10B0761AB772A200DB1931 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
-		AA10B0781AB7731100DB1931 /* bridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridgingHeader.h; sourceTree = "<group>"; };
 		AA10B0791AB773F800DB1931 /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
-		AA10B07D1AB7762100DB1931 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		AA10B07F1AB7762900DB1931 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		AA10B0811AB791A700DB1931 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		AA10B0831AB791B200DB1931 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AA10B0851AB791C000DB1931 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +128,9 @@
 		AA2FFC411AB83C0B009D677C /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		AA2FFC531AB8403A009D677C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		AA2FFC551AB84068009D677C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		AAA1F9AC1AD9BAE2004A5802 /* bridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bridgingHeader.h; path = weatheralerts/bridgingHeader.h; sourceTree = "<group>"; };
+		AAA1F9AD1AD9C038004A5802 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1.7.1/Bolts.framework"; sourceTree = "<group>"; };
+		AAA1F9AF1AD9C04D004A5802 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1.7.1/Parse.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA1F9B01AD9C04D004A5802 /* Parse.framework in Frameworks */,
+				AAA1F9AE1AD9C038004A5802 /* Bolts.framework in Frameworks */,
 				AA2FFC561AB84068009D677C /* Accounts.framework in Frameworks */,
 				AA10B0961AB7920400DB1931 /* libsqlite3.dylib in Frameworks */,
 				AA10B0941AB791FC00DB1931 /* libz.dylib in Frameworks */,
@@ -151,8 +153,6 @@
 				AA10B0861AB791C000DB1931 /* CoreGraphics.framework in Frameworks */,
 				AA10B0841AB791B200DB1931 /* CFNetwork.framework in Frameworks */,
 				AA10B0821AB791A700DB1931 /* AudioToolbox.framework in Frameworks */,
-				AA10B07E1AB7762100DB1931 /* Parse.framework in Frameworks */,
-				AA10B0801AB7762900DB1931 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +169,9 @@
 		AA10B0461AB76F9000DB1931 = {
 			isa = PBXGroup;
 			children = (
+				AAA1F9AF1AD9C04D004A5802 /* Parse.framework */,
+				AAA1F9AD1AD9C038004A5802 /* Bolts.framework */,
+				AAA1F9AC1AD9BAE2004A5802 /* bridgingHeader.h */,
 				AA2FFC1C1AB83C0B009D677C /* AFNetworking */,
 				AA2FFC301AB83C0B009D677C /* UIKit+AFNetworking */,
 				AA10B0951AB7920400DB1931 /* libsqlite3.dylib */,
@@ -184,8 +187,6 @@
 				AA10B0851AB791C000DB1931 /* CoreGraphics.framework */,
 				AA10B0831AB791B200DB1931 /* CFNetwork.framework */,
 				AA10B0811AB791A700DB1931 /* AudioToolbox.framework */,
-				AA10B07F1AB7762900DB1931 /* Bolts.framework */,
-				AA10B07D1AB7762100DB1931 /* Parse.framework */,
 				AA10B0511AB76F9000DB1931 /* weatheralerts */,
 				AA10B0671AB76F9000DB1931 /* weatheralertsTests */,
 				AA10B0501AB76F9000DB1931 /* Products */,
@@ -215,7 +216,6 @@
 				AA10B0971AB8175700DB1931 /* CoreLocationController.swift */,
 				AA10B09A1AB81FFD00DB1931 /* WeatherServiceController.swift */,
 				AA10B0991AB81D8000DB1931 /* Waypoints.gpx */,
-				AA10B0781AB7731100DB1931 /* bridgingHeader.h */,
 			);
 			path = weatheralerts;
 			sourceTree = "<group>";
@@ -557,6 +557,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/weatheralerts",
 					"$(PROJECT_DIR)",
+					/Volumes/MobileTerra/Google,
+					"Drive/Downloads/parse-library-1.7.1",
 				);
 				INFOPLIST_FILE = weatheralerts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -577,6 +579,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/weatheralerts",
 					"$(PROJECT_DIR)",
+					/Volumes/MobileTerra/Google,
+					"Drive/Downloads/parse-library-1.7.1",
 				);
 				INFOPLIST_FILE = weatheralerts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

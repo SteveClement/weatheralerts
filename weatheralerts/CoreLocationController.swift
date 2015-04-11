@@ -47,7 +47,7 @@ class CoreLocationController : NSObject, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         
-        let location = locations.last as CLLocation
+        let location = locations.last as! CLLocation
         
         println("didUpdateLocations:  \(location.coordinate.latitude), \(location.coordinate.longitude)")
         
@@ -56,7 +56,7 @@ class CoreLocationController : NSObject, CLLocationManagerDelegate {
             if let error = e {
                 println("Error:  \(e.localizedDescription)")
             } else {
-                let placemark = placemarks.last as CLPlacemark
+                let placemark = placemarks.last as! CLPlacemark
                 
                 let userInfo = [
                     "city":     placemark.locality,
