@@ -49,7 +49,6 @@
 		AA2FFC541AB8403A009D677C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2FFC531AB8403A009D677C /* Social.framework */; };
 		AA2FFC561AB84068009D677C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2FFC551AB84068009D677C /* Accounts.framework */; };
 		AAA1F9AE1AD9C038004A5802 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA1F9AD1AD9C038004A5802 /* Bolts.framework */; };
-		AAA1F9B01AD9C04D004A5802 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA1F9AF1AD9C04D004A5802 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,7 +137,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA1F9B01AD9C04D004A5802 /* Parse.framework in Frameworks */,
 				AAA1F9AE1AD9C038004A5802 /* Bolts.framework in Frameworks */,
 				AA2FFC561AB84068009D677C /* Accounts.framework in Frameworks */,
 				AA10B0961AB7920400DB1931 /* libsqlite3.dylib in Frameworks */,
