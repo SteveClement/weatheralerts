@@ -48,7 +48,8 @@
 		AA2FFC521AB83C0B009D677C /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FFC411AB83C0B009D677C /* UIWebView+AFNetworking.m */; };
 		AA2FFC541AB8403A009D677C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2FFC531AB8403A009D677C /* Social.framework */; };
 		AA2FFC561AB84068009D677C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2FFC551AB84068009D677C /* Accounts.framework */; };
-		AAA1F9AE1AD9C038004A5802 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA1F9AD1AD9C038004A5802 /* Bolts.framework */; };
+		AA976A171AD9D8C60018E79C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA976A161AD9D8C60018E79C /* Bolts.framework */; };
+		AA976A191AD9D8D40018E79C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA976A181AD9D8D40018E79C /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,9 +128,9 @@
 		AA2FFC411AB83C0B009D677C /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		AA2FFC531AB8403A009D677C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		AA2FFC551AB84068009D677C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		AA976A161AD9D8C60018E79C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AA976A181AD9D8D40018E79C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		AAA1F9AC1AD9BAE2004A5802 /* bridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bridgingHeader.h; path = weatheralerts/bridgingHeader.h; sourceTree = "<group>"; };
-		AAA1F9AD1AD9C038004A5802 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1.7.1/Bolts.framework"; sourceTree = "<group>"; };
-		AAA1F9AF1AD9C04D004A5802 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1.7.1/Parse.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,11 +138,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA1F9AE1AD9C038004A5802 /* Bolts.framework in Frameworks */,
 				AA2FFC561AB84068009D677C /* Accounts.framework in Frameworks */,
 				AA10B0961AB7920400DB1931 /* libsqlite3.dylib in Frameworks */,
 				AA10B0941AB791FC00DB1931 /* libz.dylib in Frameworks */,
 				AA2FFC541AB8403A009D677C /* Social.framework in Frameworks */,
+				AA976A191AD9D8D40018E79C /* Parse.framework in Frameworks */,
 				AA2FFC1B1AB83AF1009D677C /* Aeris.framework in Frameworks */,
 				AA10B0921AB791F500DB1931 /* SystemConfiguration.framework in Frameworks */,
 				AA10B08E1AB791E300DB1931 /* Security.framework in Frameworks */,
@@ -151,6 +152,7 @@
 				AA10B0861AB791C000DB1931 /* CoreGraphics.framework in Frameworks */,
 				AA10B0841AB791B200DB1931 /* CFNetwork.framework in Frameworks */,
 				AA10B0821AB791A700DB1931 /* AudioToolbox.framework in Frameworks */,
+				AA976A171AD9D8C60018E79C /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,13 +169,13 @@
 		AA10B0461AB76F9000DB1931 = {
 			isa = PBXGroup;
 			children = (
-				AAA1F9AF1AD9C04D004A5802 /* Parse.framework */,
-				AAA1F9AD1AD9C038004A5802 /* Bolts.framework */,
 				AAA1F9AC1AD9BAE2004A5802 /* bridgingHeader.h */,
 				AA2FFC1C1AB83C0B009D677C /* AFNetworking */,
 				AA2FFC301AB83C0B009D677C /* UIKit+AFNetworking */,
 				AA10B0951AB7920400DB1931 /* libsqlite3.dylib */,
 				AA10B0931AB791FC00DB1931 /* libz.dylib */,
+				AA976A181AD9D8D40018E79C /* Parse.framework */,
+				AA976A161AD9D8C60018E79C /* Bolts.framework */,
 				AA2FFC551AB84068009D677C /* Accounts.framework */,
 				AA2FFC531AB8403A009D677C /* Social.framework */,
 				AA2FFC1A1AB83AF1009D677C /* Aeris.framework */,
@@ -555,8 +557,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/weatheralerts",
 					"$(PROJECT_DIR)",
-					/Volumes/MobileTerra/Google,
-					"Drive/Downloads/parse-library-1.7.1",
 				);
 				INFOPLIST_FILE = weatheralerts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -577,8 +577,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/weatheralerts",
 					"$(PROJECT_DIR)",
-					/Volumes/MobileTerra/Google,
-					"Drive/Downloads/parse-library-1.7.1",
 				);
 				INFOPLIST_FILE = weatheralerts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
